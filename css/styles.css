@@ -502,9 +502,7 @@ button {
 }
 
 /* -------------------------------modal-form-style---------------=-- */
-body {
-  position: relative;
-}
+
 .beckdrop {
   visibility: hidden;
   position: fixed;
