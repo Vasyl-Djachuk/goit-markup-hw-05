@@ -666,7 +666,7 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =======dont-work== for test===== */
-.checkbox-input:checked .modal-privacy-icon {
+.checkbox-input:checked .checkbox-span-icon {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
