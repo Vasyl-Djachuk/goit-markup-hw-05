@@ -605,13 +605,9 @@ button {
 .modal-form-input:focus {
   border-color: #4d5ae5;
 }
-/* ==========dont work============ */
-.modal-form-input:focus .form-label-icon {
+
+.modal-form-input:focus + .form-label-icon {
   fill: #4d5ae5;
-}
-/* ============================= */
-.modal-form-svg:focus-within .form-label-icon {
-  fill: #404bbf;
 }
 
 .form-text-container {
@@ -663,18 +659,13 @@ button {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* =======dont-work== for test===== */
-.checkbox-input:checked .checkbox-span-icon {
+
+.checkbox-input:checked + .user-privacy-label .checkbox-span-icon {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
 }
-/* ======-----======end=========== */
-.checkbox-input:checked + .user-privacy-label .modal-privacy-icon {
-  background-color: #404bbf;
-  fill: #f4f4fd;
-  border: none;
-}
+
 .modal-icon-submit-button {
   display: block;
   margin: 0 auto;
